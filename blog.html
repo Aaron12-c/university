@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="with=device-width, initial-scale-1.0">
+<title>University website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+       <a href="index.html"><img src="images/logo.png"></a> 
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+             <li><a href="index.html">HOME</a></li> 
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="course.html">COURSE</a></li> 
+            <li><a href="blog.html">BLOG</a></li> 
+             <li><a href="contact.html">CONTACT</a></li> 
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="ShowMenu"></i>
+        </nav>
+        <h1>Our Certificate & online programs for 2025</h1> 
+        </section>
+
+        <!-------blog page content------>
+
+        <section class="blog-content">
+          
+        <div class="row">
+           <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & online programs for 2025</h2>
+            <p>
+              Our certificate programs offer industry-focused training designed to equip students with practical skills and in-depth knowledge.
+               Taught by experienced faculty, these programs provide flexible learning options, hands on experience, 
+               and a pathway to career advancement. Whether upgrading skills or exploring new opportunities, our certificates prepare you for success in today’s workforce.  
+            </p>
+            <br>
+            <p>
+               Our certificate programs provide specialized, hands-on training designed to enhance professional skills and career prospects. 
+               With industry relevant coursework, expert faculty, and flexible learning options, students gain practical knowledge to excel in their fields. 
+               Whether advancing careers or exploring new opportunities, our programs offer a solid foundation for success. 
+            </p>
+            <br>
+            <p>
+              Our certificate programs offer specialized, career focused training in various fields, equipping students with practical skills and industry relevant knowledge to enhance career opportunities and professional growth in a competitive job market.  
+            </p>
+
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+       <input type="text" placeholder="Enter name"> 
+       <input type="email" placeholder="Enter Email">
+       <textarea row="5" placeholder="Your comment"></textarea>
+       <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+
+
+
+           </div> 
+            <div class="blog-right">
+            <h3>Post categories</h3>
+             <div>
+            <span>Cybersecurity</span>
+            <span>40</span>
+            </div>
+            <div>
+            <span>Datascience</span>
+             <span>30</span>
+            </div>
+          <div>
+             <span>Computer scicence</span>
+             <span>80</span>
+             </div>
+            <div>
+            <span>Machine learning</span>
+            <span>60</span>
+             </div>
+            <div>
+            <span>Biochemistry</span>
+             <span>50</span>
+            </div>
+            </div>
+        </section>
+
+
+
+
+        
+
+
+        <!---- Footer------>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>
+    Aaron University  is a leading institution dedicated to academic excellence, innovation, and research.<br> Our university provides a dynamic learning environment that empowers students with knowledge, skills, and global perspectives.
+     With world-class faculty, state-of-the-art facilities, and a diverse community, we are committed to shaping future leaders and changemakers. 
+     Whether in academics, research, or extracurricular activities, we strive to provide a transformative educational experience that prepares students for success in a rapidly evolving world.
+  </p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+     <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+      
+  </div>
+  <p>Created by HA-tech</p>
+</section>
+
+
+
+
+
+
+        <!------- javascript for Toggle Menu------>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function ShowMenu(){
+  navLinks.style.right= "0";
+}
+function hideMenu() {
+  navLinks.style.right ="-200px";
+}
+
+</script>
+    </body>
+</html>
